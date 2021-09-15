@@ -1,7 +1,7 @@
 import React, {useRef, useState} from "react";
 import {maxArea} from "./maxArea";
 
-const ContainerMostWater: React.FC = () => {
+const ContainerWithMostWater: React.FC = () => {
   const numsInput = useRef<any>(null);
   const [result, setResult] = useState('');
   const handleRun = () => {
@@ -19,4 +19,4 @@ const ContainerMostWater: React.FC = () => {
   )
 }
 
-export default React.memo(ContainerMostWater);
+export default React.memo(ContainerWithMostWater);
